@@ -1,0 +1,173 @@
+@media only screen and (min-width: 500px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .ccard {
+        height: 335px;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+    .ccard img {
+        width: 120px;
+        margin-bottom: 10px;
+    }
+    .bannertab {
+        display: none;
+    }
+    .bannerlaptop {
+        display: none;
+    }
+
+    .top-nav {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .menu {
+        display: none;
+    }
+    .ccard img {
+        width: 170px;
+        margin-bottom: 10px;
+    }
+    .logo img {
+        padding-left: 25px;
+    }
+    .banner {
+        display: none;
+    }
+    .bannertab {
+        display: block;
+    }
+    .bannerlaptop {
+        display: none;
+    }
+    .aboutus-img img {
+        width: 100%;
+        border-radius: 15px;
+        border: 2px solid #000000;
+        height: 355px;
+        object-fit: cover;
+        object-position: center;
+        transition: all 500ms;
+    
+    }
+
+    footer {
+        background-color: #7f8eae;
+        height: 600px;
+    }
+    
+    .contactwrapper {
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .contact {
+        height: 200px;
+        padding: 10px;
+        flex-direction: row;
+    }
+    .txtinput {
+        display: flex;
+    }
+    .txtinput1 {
+        margin: 5px;
+        height: 76px;
+    }
+    .txtinput2 {
+        margin: 5px;
+    }
+    input[type="submit"] {
+        margin-left: 15px;
+    }
+    
+    .footerlogo img {
+        width: 300px;
+        margin-top: 20px;
+    }
+    .socialapps h2 {
+        font-size: 25px;
+        color: #1d3673;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .logo {
+        flex-basis: 30%;
+    }
+
+    nav {
+        flex-basis: 70%;
+    }
+
+    .top-nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .top-nav li {
+        flex-basis: 30%;
+        flex-grow: 1;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 998px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .bannerlaptop {
+        display: flex;
+    }
+    .bannertab {
+        display: none;
+    }
+    .banner {
+        display: none;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #1d3673;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+    .top-nav {
+        display: none;
+    }
+    
+    .logo, .menu {
+        padding: 1rem;
+    }
+    
+    header {
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo img {
+        width: 180px;
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+    
+    .bannerlaptop {
+        width: 100px;
+
+    }
+}
